@@ -1,0 +1,150 @@
+/* Tesetting */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/* -----HEADER---- */
+header.header{
+    padding: 15px;
+    line-height:36px;
+
+
+}
+
+.header__left{
+    float: left;
+}
+
+.header__right{
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+}
+ ul li a{
+    color: black;
+    padding: 0.5rem;
+}
+.header__right--appicon{
+    vertical-align: middle;
+}
+/* .header__right--appicon:hover{
+    
+
+} */
+.header__right--button{
+    color: white;
+  background-color: #4284F5;
+  border: none;
+  width: 96px;
+  height: 36px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.header__right--button:hover{
+cursor: pointer;
+box-shadow: rgb(154, 154, 154) 2px 2px 2px 2px;
+}
+ ul li a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+/* --------MAİN-------- */
+.main{
+    
+    margin-top: 200px;
+    text-align: center;
+    /* max-width: 50%; */
+   
+
+}
+.main__logo{
+    width: 272px;
+    height: 92px;
+}
+
+.main__search-bar{
+    border: 1px solid #D3D3D3;
+    border-radius: 20px;
+    width: 560px;
+    height: 39px;
+    margin: 20px auto;
+    
+
+}
+.main__search-bar--input{
+    width: 480px;
+    font-size: 13px;
+    border: none;
+    padding: 2px;
+    outline: none;
+    margin-top: 2px;
+}
+
+.main__search-bar--magnifier{
+    width: 30px;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+
+.main__search-bar--mic{
+    width: 15px;
+    vertical-align: middle;
+
+}
+
+
+.main__buttons--left,.main__buttons--right{
+    width: 140px;
+    border: none;
+    height: 36px;
+    border-radius: 4px;
+    margin: 20px 0px;
+    padding: 0px 16px;
+}
+
+.main__buttons--left:hover,.main__buttons--right:hover{
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+box-shadow: rgb(154, 154, 154) 1px 1px 10px;
+
+}
+.main__language a:hover{
+    text-decoration: underline;
+}
+
+/* --------FOOTER----- */
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #dadce0;
+    width: 100%;
+}
+
+.footer__country{
+    font-size: 14px;
+    padding-left: 30px;
+    border-bottom: 1px solid  #F2F2F2;
+}
+
+.footer__bottom--left{
+    float: left;
+    /* padding: 20px; */
+}
+.footer__bottom--right{
+    float: right;
+    /* padding: 20px; */
+}
+.footer__bottom ul{
+    padding: 20px;
+}
